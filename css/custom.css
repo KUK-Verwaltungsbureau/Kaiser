@@ -2,6 +2,7 @@
   * @custom.css
   * Basic style customisations.
  **/
-html{
+body{
   background: url(../img/background.jpg);
+  font-family: 'Raleway', sans-serif;
 }
