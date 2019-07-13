@@ -3,6 +3,21 @@
   * Basic style customisations.
  **/
 body{
-  background: url(../img/background.jpg);
+  background: url(../img/background.jpg) !important;
   font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  color: #161616;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Kurale';
+}
+a {
+  font-weight: 600;
+}
+#page{
+  background: unset;
+}
+main#content{
+  background: rgba(255,255,255,0.95);
+  box-shadow: 0 1px 8px rgba(0,0,0,0.8) !important;
 }
