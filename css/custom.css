@@ -14,10 +14,11 @@ h1, h2, h3, h4, h5, h6{
 a {
   font-weight: 600;
 }
-#page{
-  background: unset;
+#page, #main-wrapper{
+  background: unset !important;
 }
 main#content{
   background: rgba(255,255,255,0.95);
   box-shadow: 0 1px 8px rgba(0,0,0,0.8) !important;
+  border-radius: 8px;
 }
