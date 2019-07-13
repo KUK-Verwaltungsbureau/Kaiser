@@ -1,3 +1,7 @@
+/**
+  * @custom.css
+  * Basic style customisations.
+ **/
 html{
-  background: url(/img/background.jpg);
+  background: url(../img/background.jpg);
 }
