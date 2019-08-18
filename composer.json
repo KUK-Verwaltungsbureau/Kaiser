@@ -1,5 +1,8 @@
 {
  "name": "KUK-Verwaltungsbureau/Kaiser",
- "description": "Theme.",
- "type": "drupal-custom-theme"
+ "type": "drupal-custom-theme",
+ "description": "Drupal theme compatible with general design of sites @austro-wegry.org",
+ "require": {
+     "composer/installers": "^1.7"
+     }
 }
