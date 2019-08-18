@@ -1,0 +1,30 @@
+/**
+ * @file
+ * Setting up theme colors
+ */
+
+:root {
+  --primary: #161616;
+  --secondary: #fafad2;
+  --tertiary: #b8860b;
+  --quaternary: #ffd700;
+  --header_background: #000;
+  --header_primary: #fffff0;
+  --highlight: #7fff00;
+  --danger: #e45735;
+  --success: #228b22;
+  --love: #b22222;
+}
+body {
+  color: var(--primary) !important;
+ }
+a,
+.link {
+  color: var(--tertiary);
+}
+a:hover,
+a:focus,
+.link:hover,
+.link:focus {
+  color: var(--quaternary);
+}

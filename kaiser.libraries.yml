@@ -1,9 +1,19 @@
 global-styling:
   css:
-    component:
-      css/custom.css: {}
+    layout:
+      css/layout.css: {}
+    base:
+      css/base/reset.css: {}
+      css/base/custom.css: {}
+    theme:
+      css/base/colors.css: {}
+    components:
+      css/components/global-menu.css: {}
+      css/components/header.css: {}
 fonts:
   css:
     theme:
-      '//fonts.googleapis.com/css?family=Kurale&subset=latin-ext': {type:external, minified:true}
-      '//brick.freetls.fastly.net/Raleway:500,500i,600,600i,700,700i,800,800i': {type:external, minified:true}
+      "//fonts.googleapis.com/css?family=Kurale&subset=latin-ext":
+        { type:external, minified:true }
+      "//brick.freetls.fastly.net/Raleway:500,500i,600,600i,700,700i,800,800i":
+        { type:external, minified:true }

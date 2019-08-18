@@ -1,0 +1,5 @@
+.region-header .block {
+  clear: unset;
+  font-size: unset;
+  /* float: left; */
+}

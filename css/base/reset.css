@@ -1,0 +1,17 @@
+/**
+ * @file
+ * Unsetting some of the parent theme defaults
+ */
+
+body {
+  font-family: Raleway, sans-serif;
+  font-size: 100%;
+}
+#page,
+#main-wrapper {
+  background: unset !important;
+}
+ #header {
+  background-image: unset !important;
+  background-color: unset !important;
+ }

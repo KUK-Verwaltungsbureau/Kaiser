@@ -1,0 +1,20 @@
+/* --------------- global Menu ------------ */
+
+[dir="rtl"] .region-global-menu .menu {
+  margin-right: 10px; /* required to win over specificity of [dir="rtl"] ul.menu */
+  margin-left: 10px;
+  text-align: left;
+}
+.region-global-menu .menu-item {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+.region-global-menu .menu a {
+  display: inline-block;
+  padding: 0.8em;
+}
+.region-global-menu .menu a:hover,
+.region-global-menu .menu a:focus {
+  text-decoration: underline;
+}
