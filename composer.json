@@ -1,6 +1,7 @@
 {
  "name": "monarchia/kaiser",
  "type": "drupal-custom-theme",
+ "license": "GPL-3.0-only",
  "description": "Drupal theme compatible with general design of sites @austro-wegry.org",
  "require": {
      "composer/installers": "^1.7"
